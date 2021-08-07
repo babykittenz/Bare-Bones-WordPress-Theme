@@ -72,7 +72,7 @@
             </header>
             <a  href=   "#content"  class=  "skip-link  screen-reader-text" title="Mill Mountain Digital Content">
             
-            <?php esc_html_e(   'Skip to content'   ,   'wphierarchy'  ); ?>
+            <?php esc_html_e(   'Skip to content'   ,   'millmountain'  ); ?>
 
         </a>
         

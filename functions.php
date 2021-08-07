@@ -27,20 +27,20 @@ function wpb_add_google_fonts() {
    
    
 // Load in our CSS
-function wphierarchy_enqueue_styles() {
+function millmountain_enqueue_styles() {
 
   wp_enqueue_style( 'main-css', get_stylesheet_directory_uri() . '/style.css', [], '1.1', 'all' );
 
 }
-add_action( 'wp_enqueue_scripts', 'wphierarchy_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'millmountain_enqueue_styles' );
 
 
 // Register Menu Locations
 register_nav_menus( [
-  'main-menu' => esc_html__( 'Main Menu', 'wpheirarchy' ),
+  'main-menu' => esc_html__( 'Main Menu', 'millmountain' ),
 ]);
 
- function gratefultest_enqueue_scripts() {
+ function millmountain_enqueue_scripts() {
 
         wp_enqueue_script(  'theme-js'  ,  get_stylesheet_directory_uri()   .  '/assets/js/theme.js'    ,   []  ,   '1.1'  ,   true    );
 
@@ -50,33 +50,33 @@ register_nav_menus( [
 
     }
 
-    add_action( 'wp_enqueue_scripts'    ,   'gratefultest_enqueue_scripts');
+    add_action( 'wp_enqueue_scripts'    ,   'millmountain_enqueue_scripts');
 
 
 // Setup Widget Areas
-function wphierarchy_widgets_init() {
+function millmountain_widgets_init() {
   register_sidebar([
-    'name'          => esc_html__( 'Main Sidebar', 'wphierarchy' ),
+    'name'          => esc_html__( 'Main Sidebar', 'millmountain' ),
     'id'            => 'main-sidebar',
-    'description'   => esc_html__( 'Add widgets for main sidebar here', 'wphierarchy' ),
+    'description'   => esc_html__( 'Add widgets for main sidebar here', 'millmountain' ),
     'before_widget' => '<section class="widget">',
     'after_widget'  => '</section>',
     'before_title'  => '<p class="widget-title">',
     'after_title'   => '</p>',
   ]);
   register_sidebar([
-    'name'          => esc_html__( 'Page Sidebar', 'wphierarchy' ),
+    'name'          => esc_html__( 'Page Sidebar', 'millmountain' ),
     'id'            => 'page-sidebar',
-    'description'   => esc_html__( 'Add widgets for page sidebar here', 'wphierarchy' ),
+    'description'   => esc_html__( 'Add widgets for page sidebar here', 'millmountain' ),
     'before_widget' => '<section class="widget">',
     'after_widget'  => '</section>',
     'before_title'  => '<p class="widget-title">',
     'after_title'   => '</p>',
   ]);
   register_sidebar([
-    'name'          => esc_html__( 'Front Page Widgets', 'wphierarchy' ),
+    'name'          => esc_html__( 'Front Page Widgets', 'millmountain' ),
     'id'            => 'front-page',
-    'description'   => esc_html__( 'Add widgets for the front page here', 'wphierarchy' ),
+    'description'   => esc_html__( 'Add widgets for the front page here', 'millmountain' ),
     'before_widget' => '<section class="widget">',
     'after_widget'  => '</section>',
     'before_title'  => '<p class="widget-title">',
@@ -84,16 +84,16 @@ function wphierarchy_widgets_init() {
   ]);
   
   register_sidebar(   [
-            'name'          =>  esc_html__( 'Footer Sidebar'  ,   'gratefultest' )    ,
+            'name'          =>  esc_html__( 'Footer Sidebar'  ,   'millmountain' )    ,
             'id'            =>  'footer-sidebar'  ,
-            'description'   =>  esc_html__( 'Add Widgets For Footer Sidebar Here' ,   'gratefultest'  )   ,
+            'description'   =>  esc_html__( 'Add Widgets For Footer Sidebar Here' ,   'millmountain'  )   ,
             'before_widget' =>  '<section class="widget">'  ,
             'after_widget'  =>  '</section>'    ,
             'before_title'  =>  '<p  class="widge-title">'  ,
             'after_title'   =>  '</p>' ,
                     ]  );
 }
-add_action( 'widgets_init', 'wphierarchy_widgets_init' );
+add_action( 'widgets_init', 'millmountain_widgets_init' );
 
 
 

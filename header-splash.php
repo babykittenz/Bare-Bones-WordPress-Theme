@@ -11,7 +11,7 @@
     <div id="page">
 
       <a href="#content" class="skip-link screen-reader-text">
-        <?php esc_html_e( 'Skip to content', 'wphierarchy' ); ?>
+        <?php esc_html_e( 'Skip to content', 'millmountain' ); ?>
       </a>
 
       <header id="masthead" class="site-header" role="banner">

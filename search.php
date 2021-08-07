@@ -5,7 +5,7 @@
     <main id="main" class="site-main" role="main">
 
       <h1>
-        <?php esc_html_e( 'Searching For:', 'wphierarchy'); ?>
+        <?php esc_html_e( 'Searching For:', 'millmountain'); ?>
         "<?php echo get_search_query(); ?>"
       </h1>
 

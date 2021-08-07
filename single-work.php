@@ -31,7 +31,7 @@
             <div>
             <p>
               <a class="button" href="<?php the_field( 'url' ); ?>">
-                <?php esc_html_e( 'Check it Out!', 'wphierarchy' ); ?>
+                <?php esc_html_e( 'Check it Out!', 'millmountain' ); ?>
               </a>
             </p>
             </div>
