@@ -31,7 +31,7 @@
             <nav  id=   "site-navigation" class=    "main-navigation" role= "navigation">
 
             <div class="logo">
-                <p><a href="https://millmountaindigital.com" class="logotop" title="Mill Mountain Digital">MM</a><a href="https://millmountaindigital.com" class="logobottom" title="Mill Mountain Digital">Digital</a></p>
+                <p><a href="#" class="logotop" title="">Logo1</a><a href="#" class="logobottom" title="">Logo 2</a></p>
             </div>
 
 <?php 
@@ -70,7 +70,7 @@
               
         
             </header>
-            <a  href=   "#content"  class=  "skip-link  screen-reader-text" title="Mill Mountain Digital Content">
+            <a  href=   "#content"  class=  "skip-link  screen-reader-text" title="">
             
             <?php esc_html_e(   'Skip to content'   ,   'wphierarchy'  ); ?>
 
