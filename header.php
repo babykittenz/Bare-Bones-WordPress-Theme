@@ -31,7 +31,7 @@
             <nav  id=   "site-navigation" class=    "main-navigation" role= "navigation">
 
             <div class="logo">
-                <p><a href="https://millmountaindigital.com" class="logotop" title="Mill Mountain Digital">MM</a><a href="https://millmountaindigital.com" class="logobottom" title="Mill Mountain Digital">Digital</a></p>
+                <p><a href="#" class="logotop" title="Mill Mountain Digital">LOGO</a><a href="#" class="logobottom" title="Mill Mountain Digital">LOGO</a></p>
             </div>
 
 <?php 
@@ -54,13 +54,7 @@
     
     ?>
 
-<div class="mobile-menu-icon">
-                <div class="hamburger-menu">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-            </div>
+
 
 </nav>
 
